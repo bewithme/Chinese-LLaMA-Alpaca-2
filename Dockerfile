@@ -23,7 +23,7 @@ ADD pics pics
 ADD prompts prompts
 ADD scripts scripts
 
-#python scripts/inference/inference_hf.py --base_model models/chinese-alpaca-2-1.3b-hf  --with_prompt --interactive
+#HF_ENDPOINT=https://hf-mirror.com python scripts/inference/inference_hf.py --base_model models/chinese-alpaca-2-1.3b-hf  --with_prompt --interactive
 
 #sudo docker build -t='registry.cn-hangzhou.aliyuncs.com/bewithmeallmylife/chinese-llama-alpaca-2-app-cuda-11.4.0:1.0.0' .
 
